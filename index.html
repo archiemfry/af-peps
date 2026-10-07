@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AF Peps | Research Peptides & Compounds</title>
+<meta name="description" content="AF Peps supplies research peptides, research compounds and research supplies for legitimate laboratory and analytical research.">
+<style>
+:root{--bg:#fff;--text:#0a0a0a;--muted:#666;--line:#ddd;--soft:#f6f6f6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg);line-height:1.5}
+a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 24px}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);z-index:10}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:900;letter-spacing:4px;font-size:21px}.brand small{display:block;font-size:8px;letter-spacing:5px;text-align:center;margin-top:-2px}
+nav{display:flex;gap:18px;flex-wrap:wrap;justify-content:flex-end}nav a{font-size:11px;letter-spacing:1px;font-weight:700}
+.hero{padding:110px 0 90px;border-bottom:1px solid var(--line)}.eyebrow{font-size:11px;letter-spacing:3px;font-weight:700}.hero h1{font-size:clamp(46px,8vw,92px);line-height:.92;max-width:900px;margin:18px 0 24px;letter-spacing:-4px}.hero p{max-width:650px;color:var(--muted);font-size:18px}.btn{display:inline-block;border:1px solid #111;padding:14px 20px;margin-top:18px;font-size:11px;letter-spacing:1.5px;font-weight:800}.btn.dark{background:#111;color:#fff}
+section{padding:76px 0;border-bottom:1px solid var(--line)}h2{font-size:32px;margin:0 0 12px;letter-spacing:-1px}h3{margin:0 0 8px}.section-intro{color:var(--muted);max-width:680px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:30px 0}.filter{background:#fff;border:1px solid #bbb;padding:10px 14px;font-size:11px;font-weight:700;letter-spacing:.5px;cursor:pointer}.filter.active{background:#111;color:#fff;border-color:#111}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{border:1px solid var(--line);padding:22px;min-height:245px;display:flex;flex-direction:column}.tag{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:#777;margin-bottom:18px}.card h3{font-size:18px;line-height:1.15}.qty{color:#777;font-size:12px}.price{font-weight:800;margin-top:auto;padding-top:24px;font-size:18px}.view{border-top:1px solid var(--line);margin-top:16px;padding-top:12px;font-size:10px;font-weight:800;letter-spacing:1px;cursor:pointer}
+.notice{background:#111;color:#fff;padding:38px}.notice p{color:#ccc;max-width:750px}.notice strong{color:#fff}.columns{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}.box{border-top:2px solid #111;padding-top:18px}.box p{color:var(--muted)}
+footer{padding:50px 0}.footergrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.footerlinks a{display:block;font-size:12px;margin:7px 0;color:#555}.copyright{margin-top:45px;padding-top:20px;border-top:1px solid var(--line);font-size:11px;color:#777}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;padding:20px;z-index:20}.modal.open{display:flex}.modalbox{background:#fff;max-width:560px;width:100%;padding:32px}.close{float:right;cursor:pointer;font-weight:bold}.modalbox p{color:#555}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.columns,.footergrid{grid-template-columns:1fr}nav{display:none}}
+@media(max-width:560px){.wrap{padding:0 17px}.hero{padding:75px 0}.grid{grid-template-columns:1fr}.hero h1{letter-spacing:-2px}.nav{min-height:64px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home">AF<small>PEPS</small></a>
+<nav>
+<a href="#home">HOME</a><a href="#products">RESEARCH PRODUCTS</a><a href="#coas">COAs</a><a href="#about">ABOUT</a><a href="#faq">FAQ</a><a href="#contact">CONTACT</a>
+</nav>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div class="eyebrow">AF PEPS / RESEARCH MATERIALS</div>
+<h1>RESEARCH.<br>WITHOUT<br>THE NOISE.</h1>
+<p>Research peptides, compounds and laboratory supplies presented with a simple, transparent and documentation-focused approach.</p>
+<a class="btn dark" href="#products">VIEW RESEARCH PRODUCTS</a>
+</div></section>
+
+<section id="products"><div class="wrap">
+<h2>Research Products</h2>
+<p class="section-intro">Browse the current AF Peps catalogue. Product information is supplied for legitimate laboratory, analytical and in-vitro research purposes.</p>
+<div class="filters" id="filters"></div>
+<div class="grid" id="productGrid"></div>
+</div></section>
+
+<section id="coas"><div class="wrap"><h2>Quality & Documentation</h2><p class="section-intro">Batch-specific documentation can be provided where available. Product records should include appropriate identity and analytical information before any purchase or supply decision is made.</p></div></section>
+
+<section id="about"><div class="wrap"><h2>About AF Peps</h2><div class="columns">
+<div class="box"><h3>Research Focus</h3><p>AF Peps is designed around the supply of research materials for legitimate laboratory and analytical applications.</p></div>
+<div class="box"><h3>Clear Information</h3><p>Product descriptions are intended to remain factual and avoid medical or therapeutic claims.</p></div>
+<div class="box"><h3>Documentation</h3><p>We aim to make product identity, quantity and available batch documentation clear before supply.</p></div>
+</div></div></section>
+
+<section id="faq"><div class="wrap"><h2>FAQ</h2><div class="columns">
+<div class="box"><h3>Are products for human use?</h3><p>No. AF Peps products are supplied strictly for legitimate research purposes and are not for human or animal consumption or administration.</p></div>
+<div class="box"><h3>Do you provide dosage or protocols?</h3><p>No. AF Peps does not provide dosage, administration, treatment, cycle or protocol guidance.</p></div>
+<div class="box"><h3>Are these medicines?</h3><p>Products are presented as research materials. Regulatory status must be assessed on a product-by-product basis before supply.</p></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap"><h2>Contact</h2><p class="section-intro">For product, documentation or general business enquiries, contact AF Peps directly.</p></div></section>
+
+<section><div class="wrap"><div class="notice">
+<h2>RESEARCH USE NOTICE</h2>
+<p><strong>RESEARCH ONLY</strong><br>AF Peps supplies products strictly for legitimate laboratory, analytical and in-vitro research purposes.</p>
+<p><strong>NOT FOR HUMAN CONSUMPTION</strong><br>No consumption, injection, ingestion, inhalation, topical application or personal use.</p>
+<p><strong>NO MEDICAL ADVICE</strong><br>AF Peps does not provide dosage, administration, treatment, cycle or protocol guidance.</p>
+<p><a class="btn" style="border-color:#fff;color:#fff" href="#research-notice">READ FULL RESEARCH USE NOTICE</a></p>
+</div></div></section>
+
+<section id="research-notice"><div class="wrap"><h2>Research Use Notice</h2>
+<div class="columns">
+<div class="box"><h3>Not for Human Consumption</h3><p>All products supplied by AF Peps are intended strictly for legitimate research purposes. No consumption, injection, ingestion, inhalation, topical application or personal use is permitted or intended.</p></div>
+<div class="box"><h3>No Medical Advice</h3><p>AF Peps does not provide medical advice or guidance regarding the use of research products, including dosage, administration, treatment, cycle or protocol guidance.</p></div>
+<div class="box"><h3>Research Only</h3><p>Products are supplied strictly for legitimate laboratory, analytical and in-vitro research purposes. Customers are responsible for complying with applicable laws, regulations and laboratory requirements.</p></div>
+</div></div></section>
+</main>
+
+<footer><div class="wrap"><div class="footergrid">
+<div><div class="brand">AF<small>PEPS</small></div><p style="color:#777;font-size:12px">Research materials. Clear information. No unnecessary noise.</p></div>
+<div class="footerlinks"><strong>INFORMATION</strong><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+<div class="footerlinks"><strong>POLICIES</strong><a href="#research-notice">Research Use Notice</a><a href="#research-notice">Terms & Conditions</a><a href="#research-notice">Privacy Policy</a></div>
+</div><div class="copyright">© 2026 AF Peps. All rights reserved. This website does not currently process orders or payments.</div></div></footer>
+
+<div class="modal" id="modal"><div class="modalbox"><span class="close" onclick="closeModal()">×</span><h2 id="modalTitle"></h2><p id="modalText"></p><p><strong>Price: </strong><span id="modalPrice"></span></p><p><strong>Important:</strong> This launch-ready static site is currently a catalogue/demo and does not process orders or payments. Any future checkout should only be activated after appropriate UK regulatory and payment-provider checks.</p></div></div>
+
+<script>
+let products=[];
+const money=n=>`£${Number(n).toFixed(2)}`;
+async function loadProducts(){
+ const res=await fetch('products.json');
+ const data=await res.json();
+ products=data.products;
+ renderFilters();
+ renderProducts('All Research Products');
+}
+function renderFilters(){
+ const cats=['All Research Products',...new Set(products.map(p=>p.category))];
+ document.getElementById('filters').innerHTML=cats.map((c,i)=>`<button class="filter ${i===0?'active':''}" onclick="renderProducts('${c.replaceAll("'","&#39;")}',this)">${c}</button>`).join('');
+}
+function renderProducts(category,button){
+ document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));
+ if(button) button.classList.add('active');
+ const list=category==='All Research Products'?products:products.filter(p=>p.category===category);
+ document.getElementById('productGrid').innerHTML=list.map((p,i)=>`
+ <article class="card">
+  <div class="tag">${p.category}</div><h3>${p.name}</h3><div class="qty">${p.quantity}</div>
+  <div class="price">${money(p.price)}</div>
+  <div class="view" onclick="openModal(${products.indexOf(p)})">VIEW PRODUCT →</div>
+ </article>`).join('');
+}
+function openModal(i){const p=products[i];document.getElementById('modalTitle').textContent=p.name;document.getElementById('modalText').textContent=p.description;document.getElementById('modalPrice').textContent=money(p.price);document.getElementById('modal').classList.add('open')}
+function closeModal(){document.getElementById('modal').classList.remove('open')}
+document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
+loadProducts().catch(()=>{document.getElementById('productGrid').innerHTML='<p>Catalogue could not be loaded. Please make sure products.json is uploaded alongside index.html.</p>'});
+</script>
+</body>
+</html>

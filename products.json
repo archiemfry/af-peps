@@ -1,0 +1,256 @@
+{
+  "products": [
+    {
+      "name": "BPC-157",
+      "quantity": "10 mg",
+      "price": 40,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "BPC-157 + TB-500",
+      "quantity": "10 mg",
+      "price": 60,
+      "category": "Combination Peptides",
+      "description": "Combination research material supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "Bacteriostatic Mixing Water",
+      "quantity": "10 ml",
+      "price": 10,
+      "category": "Research Supplies",
+      "description": "Research supply intended for laboratory applications."
+    },
+    {
+      "name": "5-Amino-1MQ",
+      "quantity": "5 mg",
+      "price": 40,
+      "category": "Research Compounds",
+      "description": "Research compound supplied for legitimate laboratory and analytical research."
+    },
+    {
+      "name": "GHK-Cu",
+      "quantity": "50 mg",
+      "price": 40,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "GHK-Cu + BPC-157 + TB-500",
+      "quantity": "Vial",
+      "price": 110,
+      "category": "Combination Peptides",
+      "description": "Combination research material supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "MOTC",
+      "quantity": "10 mg",
+      "price": 40,
+      "category": "Research Peptides",
+      "description": "Research material supplied for legitimate laboratory and analytical research."
+    },
+    {
+      "name": "HGH Fragment 176-191",
+      "quantity": "5 mg",
+      "price": 40,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "GHRP-2",
+      "quantity": "5 mg",
+      "price": 25,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "PAL-GHK",
+      "quantity": "10 mg",
+      "price": 20,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "CJC-1295 (without DAC) + Ipamorelin",
+      "quantity": "10 mg",
+      "price": 80,
+      "category": "Combination Peptides",
+      "description": "Combination research material supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "Thymosin Alpha-1",
+      "quantity": "5 mg",
+      "price": 65,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "Selank",
+      "quantity": "5 mg",
+      "price": 40,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "DSIP",
+      "quantity": "5 mg",
+      "price": 44,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "Follistatin-344",
+      "quantity": "1 mg",
+      "price": 90,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "SNAP-8",
+      "quantity": "10 mg",
+      "price": 24,
+      "category": "Research Peptides",
+      "description": "Peptide research material supplied for legitimate laboratory and analytical research."
+    },
+    {
+      "name": "Semax",
+      "quantity": "5 mg",
+      "price": 40,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "ARA-290",
+      "quantity": "10 mg",
+      "price": 33,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "FOXO4-DRI",
+      "quantity": "10 mg",
+      "price": 100,
+      "category": "Research Compounds",
+      "description": "Experimental research compound supplied for legitimate laboratory and analytical research."
+    },
+    {
+      "name": "Humanin",
+      "quantity": "10 mg",
+      "price": 95,
+      "category": "Research Peptides",
+      "description": "Research peptide supplied for legitimate laboratory and analytical research."
+    },
+    {
+      "name": "LL-37",
+      "quantity": "5 mg",
+      "price": 80,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "AICAR",
+      "quantity": "50 mg",
+      "price": 55,
+      "category": "Research Compounds",
+      "description": "Research compound supplied for legitimate laboratory and analytical research."
+    },
+    {
+      "name": "PEG-MGF",
+      "quantity": "2 mg",
+      "price": 21,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "PNC-27",
+      "quantity": "5 mg",
+      "price": 100,
+      "category": "Research Peptides",
+      "description": "Research peptide supplied for legitimate laboratory and analytical research."
+    },
+    {
+      "name": "GDF-8",
+      "quantity": "1 mg",
+      "price": 60,
+      "category": "Research Peptides",
+      "description": "Research protein/peptide material supplied for legitimate laboratory research."
+    },
+    {
+      "name": "MT-2",
+      "quantity": "10 mg",
+      "price": 42,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "MT-1",
+      "quantity": "10 mg",
+      "price": 40,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "Tesamorelin",
+      "quantity": "5 mg",
+      "price": 60,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "TB-500",
+      "quantity": "5 mg",
+      "price": 42,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "PT-141",
+      "quantity": "10 mg",
+      "price": 50,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "Epitalon",
+      "quantity": "10 mg",
+      "price": 38,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "Matrixyl",
+      "quantity": "10 mg",
+      "price": 40,
+      "category": "Research Peptides",
+      "description": "Peptide research material supplied for legitimate laboratory and analytical research."
+    },
+    {
+      "name": "Ipamorelin",
+      "quantity": "5 mg",
+      "price": 40,
+      "category": "Research Peptides",
+      "description": "Synthetic peptide supplied for legitimate laboratory and research applications."
+    },
+    {
+      "name": "SS-31",
+      "quantity": "10 mg",
+      "price": 37,
+      "category": "Research Peptides",
+      "description": "Research peptide supplied for legitimate laboratory and analytical research."
+    },
+    {
+      "name": "SLU-PP-332",
+      "quantity": "1,500 mcg/ml, 50 ml",
+      "price": 60,
+      "category": "Research Compounds",
+      "description": "Experimental research compound supplied for legitimate laboratory and analytical research."
+    },
+    {
+      "name": "Bacteriostatic Mixing Water",
+      "quantity": "50 ml",
+      "price": 35,
+      "category": "Research Supplies",
+      "description": "Research supply intended for laboratory applications."
+    }
+  ]
+}
