@@ -253,25 +253,25 @@
       "description": "Research supply intended for laboratory applications."
     }
     {
-      "name": "retatrutide pen 20mg"
+      "name": "retatrutide pen 20mg",
      "quantity": "",
       "price": 160,
       "category": "Research Compounds",
-      "description": "Research supply intended for laboratory applications"
+      "description": "Research supply intended for laboratory applications",
     }
     { 
-      "name": "retatrutide pen 40mg"
+      "name": "retatrutide pen 40mg",
       "quantity": "",
       "price": 180,
-      "catagory": "Research Compounds"
-      "description": "Research supply intended for laboratory applications"
+      "catagory": "Research Compounds",
+      "description": "Research supply intended for laboratory applications",
     }
     {
-      "name": "retatrutide pen 50mg"
+      "name": "retatrutide pen 50mg",
       "quantity": "",
-      "price": 200
+      "price": 200,
       "catagory": "Research Compounds",
-      "description": "Research supply intended for laboratory application"
+      "description": "Research supply intended for laboratory application",
   
     
 }
